@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import CsiLgo from "../assets/images/bgCSILogo.png";
+import { Link } from "react-router-dom";
 
 const NavbarV = () => {
   const [nav, setNav] = useState(false);
@@ -12,28 +13,28 @@ const NavbarV = () => {
   return (
     <div className="flex justify-between items-center h-24 max-w-full mx-auto lg:px-40 px-6 bg-black text-white relative z-20 ">
       <div className=" hover:scale-110 ">
-        <a href="/">
+        <Link to="/">
           <img src={CsiLgo} alt="csilogo" width="100" height="100" />
-        </a>
+        </Link>
       </div>
       <ul className="hidden md:flex">
         <li className="p-4 hover:text-amber-500 cursor-pointer hover:scale-110">
-          <a href="/"> Home</a>
+          <Link to="/"> Home</Link>
         </li>
         <li className="p-4 hover:text-amber-500 cursor-pointer hover:scale-110">
-          <a href="/about"> About</a>
+          <Link to="/about"> About</Link>
         </li>
         <li className="p-4 hover:text-amber-500 cursor-pointer hover:scale-110">
-          <a href="/events">Events</a>
+          <Link to="/events">Events</Link>
         </li>
         <li className="p-4 hover:text-amber-500 cursor-pointer hover:scale-110">
-          <a href="/domain">Domains</a>
+          <Link to="/domain">Domains</Link>
         </li>
         <li className="p-4 hover:text-amber-500 cursor-pointer hover:scale-110">
-          <a href="/team">Team</a>
+          <Link to="/team">Team</Link>
         </li>
         <li className="p-4 hover:text-amber-500 cursor-pointer hover:scale-110">
-          <a href="/gallery"> Gallery</a>
+          <Link to="/gallery"> Gallery</Link>
         </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
@@ -55,23 +56,23 @@ const NavbarV = () => {
         />
 
         <li className="p-4 border-b border-gray-600 ">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li className="p-4 border-b border-gray-600">
-          <a href="/about"> About</a>
+          <Link to="/about"> About</Link>
         </li>
         <li className="p-4 border-b border-gray-600">
-          <a href="/events">Events</a>
+          <Link to="/events">Events</Link>
         </li>
         <li className="p-4 border-b border-gray-600">
-          <a href="/domain">Domains</a>
+          <Link to="/domain">Domains</Link>
         </li>
         <li className="p-4 border-b border-gray-600">
           {" "}
-          <a href="/team">Team</a>
+          <Link to="/team">Team</Link>
         </li>
         <li className="p-4">
-          <a href="/gallery"> Gallery</a>
+          <Link to="/gallery"> Gallery</Link>
         </li>
       </ul>
     </div>
