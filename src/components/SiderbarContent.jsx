@@ -333,12 +333,12 @@ const SidebarContent = () => {
     ],
     Finance: [
       {
-        name: "Suma Meghana Gadepalli",
-        role: "Secretary of Finance",
-        image: "TeamsImg/SumaGadepalli.jpg", // Provide the image URL
+        name: "Yojan Gandhi",
+        role: "Treasurer",
+        image: "TeamsImg/YojanGandhi.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/suma-me03/",
+            url: "https://www.linkedin.com/in/yojan-gandhi-406106188/",
             icon: <FaLinkedin />,
           },
 
@@ -349,12 +349,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Yojan Gandhi",
-        role: "Treasurer",
-        image: "TeamsImg/YojanGandhi.jpg", // Provide the image URL
+        name: "Suma Meghana Gadepalli",
+        role: "Secretary of Finance",
+        image: "TeamsImg/SumaGadepalli.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/yojan-gandhi-406106188/",
+            url: "https://www.linkedin.com/in/suma-me03/",
             icon: <FaLinkedin />,
           },
 
