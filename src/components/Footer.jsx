@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import {
   FaDribbbleSquare,
@@ -26,35 +27,35 @@ const Footer = () => {
           Dhankawadi, Pune, Maharashtra, 411043
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
-          <a href="https://www.facebook.com/csipict/" target="_blank">
+          <Link to="https://www.facebook.com/csipict/" target="_blank">
             {" "}
             <FaFacebookSquare
               size={30}
               className=" hover:scale-110 hover:text-amber-500"
             />
-          </a>
+          </Link>
 
-          <a href="https://www.instagram.com/csipict/" target="_blank">
+          <Link to="https://www.instagram.com/csipict/" target="_blank">
             {" "}
             <FaInstagram
               size={30}
               className=" hover:scale-110 hover:text-amber-500"
             />
-          </a>
+          </Link>
 
-          <a href="https://www.linkedin.com/company/pict-csi" target="_blank">
+          <Link to="https://www.linkedin.com/company/pict-csi" target="_blank">
             <FaLinkedin
               size={30}
               className=" hover:scale-110 hover:text-amber-500"
             />
-          </a>
+          </Link>
 
-          <a href="mailto:pcsb@pict.edu" target="_blank">
+          <Link to="mailto:pcsb@pict.edu" target="_blank">
             <GrMail
               size={30}
               className=" hover:scale-110 hover:text-amber-500"
             />
-          </a>
+          </Link>
           {/* <FaGithubSquare size={30} />
           <FaDribbbleSquare size={30} /> */}
         </div>
@@ -63,44 +64,44 @@ const Footer = () => {
         <div>
           <ul>
             <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              <a href="/"> Home</a>
+              <Link to="/"> Home</Link>
             </li>
             <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              <a href="/about"> About</a>
+              <Link to="/about"> About</Link>
             </li>
             <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              <a href="/events">Events</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              <a href="/gallery"> Team</a>
-            </li>
-            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              <a href="/gallery"> Gallery</a>
-            </li>
-            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              <a href="/domain">Domains</a>
+              <Link to="/events">Events</Link>
             </li>
           </ul>
         </div>
         <div>
           <ul>
             <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              <a href="http://pcsb-registrations.tk/" target="_blank">
+              <Link to="/gallery"> Team</Link>
+            </li>
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
+              <Link to="/gallery"> Gallery</Link>
+            </li>
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
+              <Link to="/domain">Domains</Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
+              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSc5KbMxaHwWGCXVp74sGfozKjjKtEZllDZcf2Jls036SLyNTg/viewform" target="_blank">
                 Register
-              </a>
+              </Link>
             </li>
             <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              <a href="mailto:pcsb@pict.edu">Email</a>
+              <Link to="mailto:pcsb@pict.edu">Email</Link>
             </li>
-            <a href="/members">
+            <Link to="/members">
               <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
                 Developers
               </li>
-            </a>
+            </Link>
           </ul>
         </div>
       </div>

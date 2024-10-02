@@ -19,11 +19,11 @@ const SidebarContent = () => {
   };
   const dropdownOptions = [
     { label: "CTH", value: "CTH" },
+    { label: "CP", value: "CP" },
     { label: "Web", value: "Web" },
     { label: "App", value: "App" },
     { label: "Machine Learning", value: "Machine Learning" },
-    { label: "Blockchain", value: "Blockchain" },
-    { label: "Data", value: "Data" },
+    { label: "Data Science", value: "Data" },
   ];
   const handleDropdownOptionClick = (optionValue) => {
     setActiveButton(optionValue);
@@ -39,7 +39,6 @@ const SidebarContent = () => {
     "Design",
     "Event & Content",
     "Marketing",
-    "Coding Circle",
   ];
   const teamMemberData = {
     Coordinators: [
@@ -79,12 +78,12 @@ const SidebarContent = () => {
     ],
     Chair: [
       {
-        name: "Samyak Jain",
-        role: "Chairperson",
-        image: "TeamsImg/Samyak_Jain_New.jpeg", // Provide the image URL
+        name: "Adnan Patel",
+        role: "President",
+        image: "TeamsImg/AdnanPatel.jpeg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/samyak-jain-s510/",
+            url: "https://www.linkedin.com/in/adnanrouf/",
             icon: <FaLinkedin />,
           },
 
@@ -95,12 +94,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Soham Badjate",
-        role: "Vice Chairperson",
-        image: "TeamsImg/SohamBadjate.png", // Provide the image URL
+        name: "Naman Labhsetwar",
+        role: "Vice President",
+        image: "TeamsImg/NamanLabhsetwar.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/soham-badjate-137870218/",
+            url: "https://www.linkedin.com/in/naman-labhsetwar-01638022a/",
             icon: <FaLinkedin />,
           },
 
@@ -114,12 +113,12 @@ const SidebarContent = () => {
     Technical: [],
     CTH: [
       {
-        name: "Atharva Kinikar",
+        name: "Jayesh Pandav",
         role: "Chief Technical Head",
-        image: "TeamsImg/Atharva_Kinikar_ChiefTechnicalHead.jpeg", // Provide the image URL
+        image: "TeamsImg/JayeshPandav.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/atharva-kinikar/",
+            url: "https://www.linkedin.com/in/jayeshpandav/",
             icon: <FaLinkedin />,
           },
 
@@ -130,12 +129,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Aryan Agarwal",
+        name: "Mihir Deshpande",
         role: "Chief Technical Head",
-        image: "TeamsImg/Aryan_Agrawal_ChiefTechnicalHead.jpeg", // Provide the image URL
+        image: "TeamsImg/MihirDeshpande.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/-aryanagrawal/",
+            url: "https://www.linkedin.com/in/mihirdesh/",
             icon: <FaLinkedin />,
           },
 
@@ -146,12 +145,30 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Mansi Gundre",
+        name: "Piyush Agarwal",
         role: "Chief Technical Head",
-        image: "TeamsImg/Mansi_Gundre_CheifTechnicalHead.jpg", // Provide the image URL
+        image: "TeamsImg/PiyushAgarwal.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/mansi-gundre/",
+            url: "https://www.linkedin.com/in/piyushhagarwal/",
+            icon: <FaLinkedin />,
+          },
+
+          {
+            url: "https://linkedin.com/in/johndoe",
+            icon: <FaGithub />,
+          },
+        ],
+      },
+    ],
+    CP: [
+      {
+        name: "Rohil Kadam",
+        role: "CP Head",
+        image: "TeamsImg/RohilKadam.png", // Provide the image URL
+        socialLinks: [
+          {
+            url: "https://www.linkedin.com/in/rohil-kadam-a57a2027b/",
             icon: <FaLinkedin />,
           },
 
@@ -164,12 +181,12 @@ const SidebarContent = () => {
     ],
     Web: [
       {
-        name: "Shivakumar Ranade",
+        name: "Manav Mehta",
         role: "Web Head",
-        image: "TeamsImg/Shivakumar_Ranade_Web_Head.jpg", // Provide the image URL
+        image: "TeamsImg/ManavMehta.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/shivakumar-ranade-96a51b227/",
+            url: "https://www.linkedin.com/in/manav-mehta-05480622a/",
             icon: <FaLinkedin />,
           },
 
@@ -180,12 +197,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Raj Shende",
+        name: "Sarvadnyaa Barate",
         role: "Web Head",
-        image: "TeamsImg/RajShende.jpeg", // Provide the image URL
+        image: "TeamsImg/SarvadnyaaBarate.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/raj-shende-350718204/",
+            url: "https://www.linkedin.com/in/sarvadnyaa-barate/",
             icon: <FaLinkedin />,
           },
 
@@ -196,28 +213,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Abhishek Jadhav",
+        name: "Soham Kulkarni",
         role: "Web Head",
-        image: "TeamsImg/Abhishek_Jadhav_Web_Head.jpg", // Provide the image URL
+        image: "TeamsImg/SohamKulkarni.jpeg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/abhishekjadhav2002/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Gaurav Somani",
-        role: "Web Head",
-        image: "TeamsImg/Gaurav_Somani_WebHead.png", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/gaurav-somani-developer/",
+            url: "https://www.linkedin.com/in/soham-kulkarni-6a4103230/",
             icon: <FaLinkedin />,
           },
 
@@ -230,12 +231,12 @@ const SidebarContent = () => {
     ],
     App: [
       {
-        name: "Aman Mugut",
+        name: "Mayank Mirajkar",
         role: "App Head",
-        image: "TeamsImg/Aman_Mugut_App_Head.jpeg", // Provide the image URL
+        image: "TeamsImg/MayankMirajkar.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/aman-mugut-b43673221/",
+            url: "https://www.linkedin.com/in/mayank-mirajkar-32449922a/",
             icon: <FaLinkedin />,
           },
 
@@ -246,44 +247,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Anand Bhalerao",
+        name: "Ninad More",
         role: "App Head",
-        image: "TeamsImg/AnandBhalerao.png", // Provide the image URL
+        image: "TeamsImg/NinadMore.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/anand-bhalerao-0b69451bb/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Vedant Kulkarni",
-        role: "App Head",
-        image: "TeamsImg/Vedant_Kulkarni-App_Head.jpeg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Chinmay Chaudhary",
-        role: "App Head",
-        image: "TeamsImg/chinmay_choudhary_app_head.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/chinmay-choudhary-496968204/",
+            url: "https://www.linkedin.com/in/ninad-more-65a942231/",
             icon: <FaLinkedin />,
           },
 
@@ -296,12 +265,12 @@ const SidebarContent = () => {
     ],
     "Machine Learning": [
       {
-        name: "Atharva Nagmoti",
+        name: "Aarti Lad",
         role: "Machine Learning Head",
-        image: "TeamsImg/AtharvaNagmoti.png", // Provide the image URL
+        image: "TeamsImg/AartiLad.jpeg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/atharva-nagmoti/",
+            url: "https://www.linkedin.com/in/aartilad/",
             icon: <FaLinkedin />,
           },
 
@@ -312,46 +281,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Aditya Gitte",
+        name: "Anish Pawar",
         role: "Machine Learning Head",
-        image: "TeamsImg/Aditya_Gitte_ML_Head.jpg", // Provide the image URL
+        image: "TeamsImg/AnishPawar.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/aditya-gitte/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-    ],
-    Blockchain: [
-      {
-        name: "Sahil Kothari",
-        role: "Blockchain Head",
-        image: "TeamsImg/Sahil_Kothari_BlockchainHead.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/sahil-kothari94/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Anurag Singh",
-        role: "Blockchain Head",
-        image: "TeamsImg/AnurgSingh.jpeg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/anurag38/",
+            url: "https://www.linkedin.com/in/anish-pawarr/",
             icon: <FaLinkedin />,
           },
 
@@ -364,12 +299,12 @@ const SidebarContent = () => {
     ],
     Data: [
       {
-        name: "Anurag Patil",
-        role: "Data Head",
-        image: "TeamsImg/Anurag_Patil_Data_Head.jpeg", // Provide the image URL
+        name: "Shaurya Saxena",
+        role: "Data Science Head",
+        image: "TeamsImg/ShauryaSaxena.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/anuragdpatil/",
+            url: "https://www.linkedin.com/in/shaurya1003/",
             icon: <FaLinkedin />,
           },
 
@@ -380,12 +315,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Isha Patil",
-        role: "Data Head",
-        image: "TeamsImg/Isha_Patil_Data_Head.jpeg", // Provide the image URL
+        name: "Suramya Jadhav",
+        role: "Data Science Head",
+        image: "TeamsImg/SuramyaJadhav.jpeg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/isha-patil-247a13247/",
+            url: "https://www.linkedin.com/in/suramya-jadhav/",
             icon: <FaLinkedin />,
           },
 
@@ -398,12 +333,12 @@ const SidebarContent = () => {
     ],
     Finance: [
       {
-        name: "Rushikesh Tajne",
-        role: "Joint Secretary (Finance)",
-        image: "TeamsImg/Rishi.jpg", // Provide the image URL
+        name: "Suma Meghana Gadepalli",
+        role: "Secretary of Finance",
+        image: "TeamsImg/SumaGadepalli.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/rushikesh-tajne-38915320a/",
+            url: "https://www.linkedin.com/in/suma-me03/",
             icon: <FaLinkedin />,
           },
 
@@ -414,12 +349,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Dhiraj Thorat",
+        name: "Yojan Gandhi",
         role: "Treasurer",
-        image: "TeamsImg/Dhiraj_Thorat_Treasurer.jpg", // Provide the image URL
+        image: "TeamsImg/YojanGandhi.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/dhiraj-thorat-073970215/",
+            url: "https://www.linkedin.com/in/yojan-gandhi-406106188/",
             icon: <FaLinkedin />,
           },
 
@@ -430,12 +365,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Vaibhav Mahajan",
+        name: "Shivanjali Thorat",
         role: "Sponsorship Head",
-        image: "TeamsImg/Vaibhav_Mahajan_Sponsorship_Head.jpeg", // Provide the image URL
+        image: "TeamsImg/ShivanjaliThorat.png", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/vaibhav-mahajan-403979212/",
+            url: "https://www.linkedin.com/in/shivanjalithorat/",
             icon: <FaLinkedin />,
           },
 
@@ -448,44 +383,12 @@ const SidebarContent = () => {
     ],
     Design: [
       {
-        name: "Piyush Bora",
-        role: "Joint Secretary (Design)",
-        image: "TeamsImg/Piyush_Bora_JointSecretary.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/piyushbora/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://github.com/Piyush-Bora",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Nimish Sanghavi",
-        role: "Joint Secretary (Design)",
-        image: "TeamsImg/NimishSanghavi.png", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/nimish-sanghavi-066109215/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Nehal Baviskar",
+        name: "Akanksha Sawalikar",
         role: "Design Head",
-        image: "TeamsImg/NehalBaviskar.png", // Provide the image URL
+        image: "TeamsImg/AkankshaSawalikar.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/nehal-baviskar-20774a21b/",
+            url: "https://www.linkedin.com/in/akanksha-sawalikar-ab3a28252/",
             icon: <FaLinkedin />,
           },
 
@@ -496,12 +399,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Sakshi Rathi",
-        role: "Deisgn Head",
-        image: "TeamsImg/Sakshi_Rathi_anchoring_design.jpeg", // Provide the image URL
+        name: "Akshata Madane",
+        role: "Design Head",
+        image: "TeamsImg/AkshataMadane.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/sakshi-rathi-a17093206/",
+            url: "https://www.linkedin.com/in/akshatamadane7/",
             icon: <FaLinkedin />,
           },
 
@@ -512,12 +415,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Ameya Dhake",
+        name: "Vedant Solunke",
         role: "Video Editing Head",
-        image: "TeamsImg/Ameya_Dhake_Video_Editing_Head.PNG", // Provide the image URL
+        image: "TeamsImg/VedantSolunke.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/ameya-dhake-a69b2b218/",
+            url: "https://www.linkedin.com/in/vedantsolunke/",
             icon: <FaLinkedin />,
           },
 
@@ -530,12 +433,12 @@ const SidebarContent = () => {
     ],
     "Event & Content": [
       {
-        name: "Yash Kulkarni",
-        role: "Joint Secretary (Event)",
-        image: "TeamsImg/Yash_Kulkarni_JointSecretary.JPG", // Provide the image URL
+        name: "Kavita Thete",
+        role: "Joint Secretary",
+        image: "TeamsImg/KavitaThete.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/yash-kulkarni-218223218/",
+            url: "https://www.linkedin.com/in/kavitathete/",
             icon: <FaLinkedin />,
           },
 
@@ -546,12 +449,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Sakshi Naik",
-        role: "Joint Secretary (Content)",
-        image: "TeamsImg/Sakshi_Naik_JointSecretary.jpg", // Provide the image URL
+        name: "Shatakshi Chaudhari",
+        role: "Joint Secretary",
+        image: "TeamsImg/ShatakshiChaudhari.png", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/sakshi-naik-653960218/",
+            url: "https://www.linkedin.com/in/shatakshi-chaudhari-707b1b236/",
             icon: <FaLinkedin />,
           },
 
@@ -562,76 +465,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Advait Naik",
-        role: "Event Coordinator",
-        image: "TeamsImg/Advait_Naik.png", // Provide the image URL
+        name: "Reva Pawar",
+        role: "Content Head",
+        image: "TeamsImg/RevaPawar.png", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/advait-naik-344689245/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Abhishek Soundalgekar",
-        role: "Event Coordinator",
-        image: "TeamsImg/Abhishek_Soundalgekar_Event_Coordinator.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/abhishekmsoundalgekar",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Atharv Dhup",
-        role: "Event Coordinator",
-        image: "TeamsImg/AtharvDhup.png", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/atharv-dhup-90927620b/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Mohak Shah",
-        role: "Anchoring & Content Head",
-        image: "TeamsImg/Mohak.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/mohak-shah-552173218/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Sakshi Rathi",
-        role: "Anchoring & Content Head",
-        image: "TeamsImg/Sakshi_Rathi_anchoring_design.jpeg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/sakshi-rathi-a17093206/",
+            url: "https://www.linkedin.com/in/reva-pawar/",
             icon: <FaLinkedin />,
           },
 
@@ -644,12 +483,12 @@ const SidebarContent = () => {
     ],
     Marketing: [
       {
-        name: "Mahavir Navlakha",
-        role: "Joint Secretary (Marketing)",
-        image: "TeamsImg/Mahavir.jpeg", // Provide the image URL
+        name: "Aarushi Sharan",
+        role: "Marketing Head",
+        image: "TeamsImg/AarushiSharan.jpeg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/mahaveer-navlakha-844b5a156/",
+            url: "https://www.linkedin.com/in/aarushi-sharan-17b9a822a/",
             icon: <FaLinkedin />,
           },
 
@@ -660,12 +499,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Namit Surana",
-        role: "Joint Secretary (Marketing)",
-        image: "TeamsImg/Namit_Surana_JS.JPG", // Provide the image URL
+        name: "Krishna Mundada",
+        role: "Marketing Head",
+        image: "TeamsImg/KrishnaMundada.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/namit-surana-6b67b1214/",
+            url: "https://www.linkedin.com/in/krishna-mundada2407/",
             icon: <FaLinkedin />,
           },
 
@@ -676,12 +515,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Venkatesh Joshi",
+        name: "Chaitrali Ginimav",
         role: "PRO",
-        image: "TeamsImg/Joshi_Venkatesh_PRO.JPG", // Provide the image URL
+        image: "TeamsImg/ChaitraliGinimav.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/venkatesh-joshi-01244821b/",
+            url: "https://www.linkedin.com/in/chaitrali-ginimav-88a48922a/",
             icon: <FaLinkedin />,
           },
 
@@ -692,110 +531,12 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Reva Dalal",
-        role: "Publicity Director",
-        image: "TeamsImg/Reva_Dalal_Marketing and Publicity Director .JPEG", // Provide the image URL
+        name: "Gaurang Mote",
+        role: "Operations Head",
+        image: "TeamsImg/GaurangMote.jpeg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/reva-dalal-200b44250/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Aryan Vora",
-        role: "Marketing Head",
-        image: "TeamsImg/Aryan_Vora_Marketing_Publicity_Head.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/aryan9721/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Shreyal Nagle",
-        role: "Marketing Head",
-        image: "TeamsImg/Shreyal_Nagle_Marketing_Head.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/shreyal-nagle-1491791bb/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-    ],
-    "Coding Circle": [
-      {
-        name: "Tanisha Pareek",
-        role: "Coding Circle Director",
-        image: "TeamsImg/Tanisha_Pareek_Director_of_Coding_Circle.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/tanishapareek/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Rishikesh Suryawanshi",
-        role: "Coding Circle Secretary",
-        image: "TeamsImg/Rishikesh_Suryavanshi_Secretary_Coding_Circle.jpeg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Vaishnavi Raut",
-        role: "Coding Circle Coordinator",
-        image: "TeamsImg/Vaishnavi_Raut-co-ordinator of coding club head.jpeg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/vaishnavi-raut-4a0228224/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Shivam Dhonde",
-        role: "Coding Circle Coordinator",
-        image: "TeamsImg/Shivam_Dhonde_Coding_Circle_Coordinator.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/shivamd27/",
+            url: "https://www.linkedin.com/in/gaurang-mote-349905230/",
             icon: <FaLinkedin />,
           },
 
@@ -809,10 +550,10 @@ const SidebarContent = () => {
   };
   const dropdownDataMapping = {
     CTH: teamMemberData.CTH,
+    CP: teamMemberData.CP,
     Web: teamMemberData.Web,
     App: teamMemberData.App,
     "Machine Learning": teamMemberData["Machine Learning"],
-    Blockchain: teamMemberData.Blockchain,
     Data: teamMemberData.Data,
   };
   return (
@@ -868,7 +609,7 @@ const SidebarContent = () => {
             </div>
           ))}
         </div>
-        <div className="content  ">
+        <div className="content">
           {teamMemberData[activeButton].map((member, index) => (
             <div className="pl-6 pr-6">
               {" "}

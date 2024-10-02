@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Typed from "react-typed";
 
 const Hero = () => {
@@ -27,11 +28,11 @@ const Hero = () => {
           Unleash Your Potential with Us 🚀
         </p>
         <div>
-          <a href="http://pcsb-registrations.tk/" target="_blank">
+          <Link to="https://docs.google.com/forms/d/e/1FAIpQLSc5KbMxaHwWGCXVp74sGfozKjjKtEZllDZcf2Jls036SLyNTg/viewform" target="_blank">
             <button className="bg-[#01a9e2] w-[200px] rounded-md font-bold tracking-wider my-10 mx-auto py-3 text-white duration-300 hover:scale-110">
               Join Us
             </button>
-          </a>
+          </Link>
         </div>
       </div>
       <hr className="opacity-40" />
