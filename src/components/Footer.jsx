@@ -77,7 +77,7 @@ const Footer = () => {
         <div>
           <ul>
             <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
-              <Link to="/gallery"> Team</Link>
+              <Link to="/team"> Team</Link>
             </li>
             <li className="py-2 text-base hover:text-amber-500 cursor-pointer hover:scale-110">
               <Link to="/gallery"> Gallery</Link>
