@@ -36,8 +36,8 @@ const SidebarContent = () => {
     "Chair",
     "Technical",
     "Finance",
-    "Design",
-    "Event & Content",
+    "Design & Content",
+    "Event",
     "Marketing",
   ];
   const teamMemberData = {
@@ -64,17 +64,17 @@ const SidebarContent = () => {
           },
         ],
       },
-      {
-        name: "Prof. Ashwini Bundele",
-        role: "Guide",
-        image: "AshwiniBundele.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/ashwini-bundele-b0a168b/",
-            icon: <FaLinkedin />,
-          },
-        ],
-      },
+      // {
+      //   name: "Prof. Ashwini Bundele",
+      //   role: "Guide",
+      //   image: "AshwiniBundele.jpg", // Provide the image URL
+      //   socialLinks: [
+      //     {
+      //       url: "https://www.linkedin.com/in/ashwini-bundele-b0a168b/",
+      //       icon: <FaLinkedin />,
+      //     },
+      //   ],
+      // },
     ],
     Chair: [
       {
@@ -381,7 +381,7 @@ const SidebarContent = () => {
         ],
       },
     ],
-    Design: [
+    "Design & Content": [
       {
         name: "Akanksha Sawalikar",
         role: "Design Head",
@@ -415,6 +415,22 @@ const SidebarContent = () => {
         ],
       },
       {
+        name: "Reva Pawar",
+        role: "Content Head",
+        image: "TeamsImg/RevaPawar.png", // Provide the image URL
+        socialLinks: [
+          {
+            url: "https://www.linkedin.com/in/reva-pawar/",
+            icon: <FaLinkedin />,
+          },
+
+          {
+            url: "https://linkedin.com/in/johndoe",
+            icon: <FaGithub />,
+          },
+        ],
+      },
+      {
         name: "Vedant Solunke",
         role: "Video Editing Head",
         image: "TeamsImg/VedantSolunke.jpg", // Provide the image URL
@@ -431,7 +447,7 @@ const SidebarContent = () => {
         ],
       },
     ],
-    "Event & Content": [
+    Event: [
       {
         name: "Kavita Thete",
         role: "Joint Secretary",
@@ -465,12 +481,28 @@ const SidebarContent = () => {
         ],
       },
       {
-        name: "Reva Pawar",
-        role: "Content Head",
-        image: "TeamsImg/RevaPawar.png", // Provide the image URL
+        name: "Chaitrali Ginimav",
+        role: "PRO",
+        image: "TeamsImg/ChaitraliGinimav.jpg", // Provide the image URL
         socialLinks: [
           {
-            url: "https://www.linkedin.com/in/reva-pawar/",
+            url: "https://www.linkedin.com/in/chaitrali-ginimav-88a48922a/",
+            icon: <FaLinkedin />,
+          },
+
+          {
+            url: "https://linkedin.com/in/johndoe",
+            icon: <FaGithub />,
+          },
+        ],
+      },
+      {
+        name: "Gaurang Mote",
+        role: "Operations Head",
+        image: "TeamsImg/GaurangMote.jpeg", // Provide the image URL
+        socialLinks: [
+          {
+            url: "https://www.linkedin.com/in/gaurang-mote-349905230/",
             icon: <FaLinkedin />,
           },
 
@@ -505,38 +537,6 @@ const SidebarContent = () => {
         socialLinks: [
           {
             url: "https://www.linkedin.com/in/krishna-mundada2407/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Chaitrali Ginimav",
-        role: "PRO",
-        image: "TeamsImg/ChaitraliGinimav.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/chaitrali-ginimav-88a48922a/",
-            icon: <FaLinkedin />,
-          },
-
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Gaurang Mote",
-        role: "Operations Head",
-        image: "TeamsImg/GaurangMote.jpeg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/gaurang-mote-349905230/",
             icon: <FaLinkedin />,
           },
 
