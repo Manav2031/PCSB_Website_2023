@@ -34,10 +34,11 @@ const SidebarContent = () => {
   const buttonsData = [
     "Coordinators",
     "Chair",
+    "Admin",
     "Technical",
     "Finance",
     "Design & Content",
-    "Event",
+    // "Event",
     "Marketing",
   ];
   const teamMemberData = {
@@ -100,6 +101,72 @@ const SidebarContent = () => {
         socialLinks: [
           {
             url: "https://www.linkedin.com/in/naman-labhsetwar-01638022a/",
+            icon: <FaLinkedin />,
+          },
+
+          {
+            url: "https://linkedin.com/in/johndoe",
+            icon: <FaGithub />,
+          },
+        ],
+      },
+    ],
+    Admin: [
+      {
+        name: "Kavita Thete",
+        role: "Joint Secretary",
+        image: "TeamsImg/KavitaThete.jpg", // Provide the image URL
+        socialLinks: [
+          {
+            url: "https://www.linkedin.com/in/kavitathete/",
+            icon: <FaLinkedin />,
+          },
+
+          {
+            url: "https://linkedin.com/in/johndoe",
+            icon: <FaGithub />,
+          },
+        ],
+      },
+      {
+        name: "Shatakshi Chaudhari",
+        role: "Joint Secretary",
+        image: "TeamsImg/ShatakshiChaudhari.png", // Provide the image URL
+        socialLinks: [
+          {
+            url: "https://www.linkedin.com/in/shatakshi-chaudhari-707b1b236/",
+            icon: <FaLinkedin />,
+          },
+
+          {
+            url: "https://linkedin.com/in/johndoe",
+            icon: <FaGithub />,
+          },
+        ],
+      },
+      {
+        name: "Chaitrali Ginimav",
+        role: "PRO",
+        image: "TeamsImg/ChaitraliGinimav.jpg", // Provide the image URL
+        socialLinks: [
+          {
+            url: "https://www.linkedin.com/in/chaitrali-ginimav-88a48922a/",
+            icon: <FaLinkedin />,
+          },
+
+          {
+            url: "https://linkedin.com/in/johndoe",
+            icon: <FaGithub />,
+          },
+        ],
+      },
+      {
+        name: "Gaurang Mote",
+        role: "Operations Head",
+        image: "TeamsImg/GaurangMote.jpeg", // Provide the image URL
+        socialLinks: [
+          {
+            url: "https://www.linkedin.com/in/gaurang-mote-349905230/",
             icon: <FaLinkedin />,
           },
 
@@ -447,72 +514,72 @@ const SidebarContent = () => {
         ],
       },
     ],
-    Event: [
-      {
-        name: "Kavita Thete",
-        role: "Joint Secretary",
-        image: "TeamsImg/KavitaThete.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/kavitathete/",
-            icon: <FaLinkedin />,
-          },
+    // Event: [
+    //   {
+    //     name: "Kavita Thete",
+    //     role: "Joint Secretary",
+    //     image: "TeamsImg/KavitaThete.jpg", // Provide the image URL
+    //     socialLinks: [
+    //       {
+    //         url: "https://www.linkedin.com/in/kavitathete/",
+    //         icon: <FaLinkedin />,
+    //       },
 
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Shatakshi Chaudhari",
-        role: "Joint Secretary",
-        image: "TeamsImg/ShatakshiChaudhari.png", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/shatakshi-chaudhari-707b1b236/",
-            icon: <FaLinkedin />,
-          },
+    //       {
+    //         url: "https://linkedin.com/in/johndoe",
+    //         icon: <FaGithub />,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     name: "Shatakshi Chaudhari",
+    //     role: "Joint Secretary",
+    //     image: "TeamsImg/ShatakshiChaudhari.png", // Provide the image URL
+    //     socialLinks: [
+    //       {
+    //         url: "https://www.linkedin.com/in/shatakshi-chaudhari-707b1b236/",
+    //         icon: <FaLinkedin />,
+    //       },
 
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Chaitrali Ginimav",
-        role: "PRO",
-        image: "TeamsImg/ChaitraliGinimav.jpg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/chaitrali-ginimav-88a48922a/",
-            icon: <FaLinkedin />,
-          },
+    //       {
+    //         url: "https://linkedin.com/in/johndoe",
+    //         icon: <FaGithub />,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     name: "Chaitrali Ginimav",
+    //     role: "PRO",
+    //     image: "TeamsImg/ChaitraliGinimav.jpg", // Provide the image URL
+    //     socialLinks: [
+    //       {
+    //         url: "https://www.linkedin.com/in/chaitrali-ginimav-88a48922a/",
+    //         icon: <FaLinkedin />,
+    //       },
 
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-      {
-        name: "Gaurang Mote",
-        role: "Operations Head",
-        image: "TeamsImg/GaurangMote.jpeg", // Provide the image URL
-        socialLinks: [
-          {
-            url: "https://www.linkedin.com/in/gaurang-mote-349905230/",
-            icon: <FaLinkedin />,
-          },
+    //       {
+    //         url: "https://linkedin.com/in/johndoe",
+    //         icon: <FaGithub />,
+    //       },
+    //     ],
+    //   },
+    //   {
+    //     name: "Gaurang Mote",
+    //     role: "Operations Head",
+    //     image: "TeamsImg/GaurangMote.jpeg", // Provide the image URL
+    //     socialLinks: [
+    //       {
+    //         url: "https://www.linkedin.com/in/gaurang-mote-349905230/",
+    //         icon: <FaLinkedin />,
+    //       },
 
-          {
-            url: "https://linkedin.com/in/johndoe",
-            icon: <FaGithub />,
-          },
-        ],
-      },
-    ],
+    //       {
+    //         url: "https://linkedin.com/in/johndoe",
+    //         icon: <FaGithub />,
+    //       },
+    //     ],
+    //   },
+    // ],
     Marketing: [
       {
         name: "Aarushi Sharan",
